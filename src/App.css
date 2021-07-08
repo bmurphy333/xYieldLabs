@@ -1,38 +1,123 @@
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.xrp-logo {
+  height: 200px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #e3edf4;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: calc(8px + 2vmin);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(47, 53, 53);
+  margin-top: 80px;
+}
+
+.header-info {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: calc(9px + 2vmin);
+  font-weight: bold;
 }
 
 .App-link {
-  color: #61dafb;
+  color: rgb(37, 67, 236);
+  text-decoration: none;
+  font-family: monospace;
+}
+.App-link:hover {
+  color: rgb(134, 168, 243);
+  text-decoration: underline;
+}
+.App-link:active {
+  color: rgb(134, 168, 243);
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coming-soon {
+  font-weight: bolder;
+  font-size: calc(5px + 2vmin);
+  color: rgb(0, 6, 7);
+  margin-bottom: 40px;
 }
+
+.meet-the-team-box {
+  display: flex;
+   flex-direction:row;
+   flex-wrap: wrap;
+   padding: 30px;
+   justify-content: center;
+   /* align-items: center; */
+   background-color: rgb(90, 171, 237);
+   opacity: 0.8;
+}
+.image-item {
+  margin: 5px;
+  max-height: 40vh;
+  max-width: 60vh;
+}
+.text-item {
+  margin: 20px;
+  max-height: 40vh;
+  max-width: 60vh;
+}
+
+.keep-posted {
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: calc(8px + 2vmin);
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* //////////////// */
+
+.App-info1 {
+  /* display: flex; */
+  /* background-color: #a0b8e6; */
+  /* height: 220px; */
+}
+.meet-the-team11 {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  height: auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  align-content: center;
+  background-color: rgb(90, 171, 237);
+  opacity: 0.8;
+}
+.meet-the-team-text11 {
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px; */
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+.team-image11 {
+  max-height: 40vh;
+  max-width: 60vh;
+}
+.devs-image11 {
+  max-height: 40vh;
+  max-width: 60vh;
+}
+/* ////////// */

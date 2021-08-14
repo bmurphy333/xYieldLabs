@@ -1,4 +1,5 @@
 import xrpSymbol from './xrpSymbol.svg';
+import goSymbol from './go-logo.png';
 import team from './team.png'
 import devs from './devs.png'
 import './App.css';
@@ -25,6 +26,7 @@ function App() {
         </a>
       </div>
       <div>
+      <img src={goSymbol} className="xrp-logo" alt="xrpLogo" />
         <div className='coming-soon'>
            Coming Soon...
         </div>
@@ -50,7 +52,8 @@ function App() {
 
       <div className="meet-the-team-box">
         <img src={team} className="image-item" alt="teamImage"></img>
-        <p className="text-item"> Our Manchester UK-based team of 3 (Brigid, Josh and Josh) are passionate about the XRP ecosystem and are excited to innovate on behalf of the XRP community. More to come soon. </p>
+        <p className="text-item"> Our Manchester UK-based team of 3 (Brigid, Josh and Josh) are passionate about the XRP ecosystem and are excited to innovate on behalf of the XRP community. Our first project involves writing a GoLang client for the Xumm API in order to enable further development in the ever growing and popular GO community. <br></br>More to come soon. 
+        </p>
         <img src={devs} className="image-item" alt="devsImage"></img>
       </div>
       <div className="keep-posted">

@@ -1,8 +1,90 @@
-.App {
+.page-container {
+  margin-left: 10%;
+}
+
+.section-header {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.section-break {
+  border-bottom: 5px solid rgb(69, 86, 235);
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.project-icon {
+  height: 120px;
+  pointer-events: none;
+}
+
+.project-item-icon {
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+.project-item-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.project-item-text {
+  line-height: 30px;
+  font-size: 15px;
+  margin-right: 10%;
+  margin-left: 5%;
+  width: 900px;
+}
+
+
+
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+  /* align-items: stretch; */
+  height: 500px;
+}
+
+.info-text {
+  flex-grow: 1;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.info-projects {
+  flex-grow: 2x;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  width: 500px;
+}
+
+.projects-item {
+
 }
 
 .xrp-logo {
-  height: 200px;
+  height: 150px;
   pointer-events: none;
 }
 
@@ -17,19 +99,20 @@
 
 .header {
   font-weight: bolder;
-  font-size: calc(8px + 2vmin);
+  /* font-size: calc(8px + 2vmin); */
+  font-size: large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(47, 53, 53);
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .header-info {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin: 30px;
   font-size: calc(9px + 2vmin);
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-style: italic;
+  font-size: larger;
+  color: rgb(25 47 170);
 }
 
 .App-link {
@@ -53,6 +136,17 @@
   margin-bottom: 40px;
 }
 
+
+
+
+.meet-the-team-header {
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .meet-the-team-box {
   display: flex;
    flex-direction:row;
@@ -60,8 +154,9 @@
    padding: 30px;
    justify-content: center;
    /* align-items: center; */
-   background-color: rgb(90, 171, 237);
+   /* background-color: rgb(90, 171, 237); */
    opacity: 0.8;
+   min-height: 200px;
 }
 .image-item {
   margin: 5px;
@@ -70,54 +165,24 @@
 }
 .text-item {
   margin: 20px;
-  max-height: 40vh;
-  max-width: 60vh;
+  width: 350px;
+  line-height: 25px;
 }
 
-.keep-posted {
-  text-align: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: calc(8px + 2vmin);
-  margin-top: 50px;
-  padding-bottom: 30px;
-}
-
-/* //////////////// */
-
-.App-info1 {
-  /* display: flex; */
-  /* background-color: #a0b8e6; */
-  /* height: 220px; */
-}
-.meet-the-team11 {
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
-  /* flex-wrap: wrap; */
-  width: 100%;
+.keep-posted-container {
+  background-color: rgb(69, 86, 235);
   height: auto;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  align-content: center;
-  background-color: rgb(90, 171, 237);
-  opacity: 0.8;
 }
-.meet-the-team-text11 {
-  /* padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 40px; */
-  padding-left: 5vh;
-  padding-right: 5vh;
-  padding-top: 8vh;
-  padding-bottom: 8vh;
+
+.keep-posted-content {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 10px 10px 0 10px ;
+  color: rgb(255, 255, 255);
 }
-.team-image11 {
-  max-height: 40vh;
-  max-width: 60vh;
-}
-.devs-image11 {
-  max-height: 40vh;
-  max-width: 60vh;
-}
-/* ////////// */
+
+
+
+
+

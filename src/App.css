@@ -1,5 +1,37 @@
+.xrp-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  padding-top: 2%;
+}
+
+.header-title {
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.header-info {
+  margin-top: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-style: italic;
+  font-size: larger;
+  color: rgb(25 47 170);
+}
+
 .page-container {
   margin-left: 10%;
+  margin-right: 10%;
 }
 
 .section-header {
@@ -10,7 +42,7 @@
 }
 .section-break {
   border-bottom: 5px solid rgb(69, 86, 235);
-  margin-right: 10%;
+  border-radius: 4px;
   margin-bottom: 20px;
 }
 
@@ -24,13 +56,13 @@
 
 .project-icon {
   height: 120px;
-  pointer-events: none;
 }
 
 .project-item-icon {
   margin-right: 20px;
   margin-left: 20px;
-
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .project-item-header {
@@ -41,78 +73,8 @@
 .project-item-text {
   line-height: 30px;
   font-size: 15px;
-  margin-right: 10%;
   margin-left: 5%;
-  width: 900px;
-}
-
-
-
-
-.info-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-around;
-  /* align-items: stretch; */
-  height: 500px;
-}
-
-.info-text {
-  flex-grow: 1;
-  margin-left: 10%;
-  margin-right: 5%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  width: 50%;
-
-  line-height: 30px;
-  font-size: 15px;
-}
-
-.info-projects {
-  flex-grow: 2x;
-  display: flex;
-  flex-direction: column;
-  margin: 2%;
-  width: 500px;
-}
-
-.projects-item {
-
-}
-
-.xrp-logo {
-  height: 150px;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #e3edf4;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.header {
-  font-weight: bolder;
-  /* font-size: calc(8px + 2vmin); */
-  font-size: large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(47, 53, 53);
-  margin-top: 60px;
-}
-
-.header-info {
-  margin: 30px;
-  font-size: calc(9px + 2vmin);
-  /* font-weight: bold; */
-  font-style: italic;
-  font-size: larger;
-  color: rgb(25 47 170);
+  width: 700px;
 }
 
 .App-link {
@@ -122,29 +84,11 @@
 }
 .App-link:hover {
   color: rgb(134, 168, 243);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .App-link:active {
   color: rgb(134, 168, 243);
   text-decoration: underline;
-}
-
-.coming-soon {
-  font-weight: bolder;
-  font-size: calc(5px + 2vmin);
-  color: rgb(0, 6, 7);
-  margin-bottom: 40px;
-}
-
-
-
-
-.meet-the-team-header {
-  font-size: large;
-  font-weight: bolder;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .meet-the-team-box {
@@ -152,20 +96,18 @@
    flex-direction:row;
    flex-wrap: wrap;
    padding: 30px;
-   justify-content: center;
-   /* align-items: center; */
-   /* background-color: rgb(90, 171, 237); */
+   justify-content: space-between;
    opacity: 0.8;
    min-height: 200px;
 }
 .image-item {
   margin: 5px;
-  max-height: 40vh;
-  max-width: 60vh;
+  max-height: 35vh;
+  max-width: 45vh;
 }
 .text-item {
   margin: 20px;
-  width: 350px;
+  width: 300px;
   line-height: 25px;
 }
 
@@ -175,10 +117,10 @@
 }
 
 .keep-posted-content {
-  text-align: center;
+  text-align: -webkit-left;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: 10px 10px 0 10px ;
+  margin: 10px 10px 0 10% ;
   color: rgb(255, 255, 255);
 }
 
